@@ -10,10 +10,13 @@ def result_calculate(size, lights, device):
     light_coef = 0.04
     devices_coef = 5   
     return size * home_coef + lights * light_coef + device * devices_coef 
+@app.route('/sborka')
+def index():
+    return render_template('sborka.html')
 
 #Первая страница
 @app.route('/')
-def index():
+def sborka():
     return render_template('index.html')
 
 #Вторая страница
