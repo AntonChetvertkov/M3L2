@@ -6,12 +6,17 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     line-height: 20px;
-    background-color: #fff;
+    background-color: #6acfc8;
     color: #272727;
 }
 
-h1, h2, p {
+
+h1, h2 {
     margin: 0;
+}
+
+p {
+    font-size: 1px;
 }
 
 ul {
